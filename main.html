@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2017 by SancSalix (http://jsbin.com/dakofic/1/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
 <html>
 	<head>
 	<style type="text/css">
@@ -23,10 +14,9 @@ Released under the MIT license: http://jsbin.mit-license.org
       font-size: 100%;
       font: inherit;
       }
-      header {
-        text-align: center;
-	max-height: 100%;
-        max-width: 100%;
+      header img{
+        display: block;
+        margin: 0 auto 0 auto;
       }
       .main {
         margin: 0 0 0 150px;
@@ -45,22 +35,23 @@ Released under the MIT license: http://jsbin.mit-license.org
       div {
         padding: 14px 0 14px 0;
       }
+      form {
+        padding: 0 0 5px 0;        
+      }
       .submit {
         padding: 50px 0 0 0;
-        transform: scale(1.5);
+
+      }
+      .submit[type=submit] {   
+        width: 120px;
       }
       .type {
         font-weight: bold;
       }
-      form {
-        padding: 0 0 5px 0;        
-      }
-
 
       </style>
 	</head>
-  
-  
+    
 	<body>
 		<header> <img src="Header.PNG" alt="Snip of Craigslist header" /> </header>
      <div class="main"> 
