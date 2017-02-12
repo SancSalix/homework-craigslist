@@ -39,6 +39,16 @@ h2 {
 	padding-left: 10px;
 }
 
+.bike {
+	height: 600px;
+	width: 450px;
+}
+
+.mapZoom {
+	height: 256px;
+	width: 256px;
+}
+
 h3 {
   display: inline;
   margin: 0 0 0 -5px;
