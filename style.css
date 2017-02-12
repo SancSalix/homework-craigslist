@@ -20,6 +20,8 @@ header {
 
 .header {
 	display: inline;
+	list-style-type: none;
+	padding: 0;
 }
 
 h2 {
