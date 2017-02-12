@@ -17,9 +17,9 @@ header {
   padding: 0 0 50px 0;
 }
 
-.main {
-    margin: 0 0 0 150px;
- }
+.disclaimer {
+	margin: 0 0 0 150px;
+}
 
 .disclaimer li {
 	display: inline;
@@ -31,6 +31,10 @@ header {
 .printRight {
 	text-align: right;
 }
+
+.main {
+    margin: 0 0 0 150px;
+ }
 
 h1 {
 	font-weight: bold;
