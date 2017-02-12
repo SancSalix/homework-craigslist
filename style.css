@@ -14,7 +14,7 @@ font: inherit;
 header {
   background: white url("headerItem.PNG") top left no-repeat;
   background-size: 100% 100%;
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
 }
 
 .main {
@@ -22,7 +22,7 @@ header {
  }
 
 .disclaimer {
-	margin: 5px 0 0 0px;
+	margin: -25px 0 0 0px;
 }
 
 .disclaimer li {
@@ -33,7 +33,7 @@ header {
 }
 
 .printRight {
-	text-align: right;
+	margin-right: 800px;
 }
 
 h1 {
@@ -43,7 +43,8 @@ h1 {
 
 .gallery {
 	font-size: 110%;
-	padding-left: 300px;
+	padding: 0 0 0px 300px;
+	margin-bottom: 0;
 }
 
 h2 {
