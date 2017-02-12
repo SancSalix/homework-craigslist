@@ -22,7 +22,7 @@ header {
  }
 
 .disclaimer {
-	margin: -75px 0 0 0px;
+	margin: -50px 0 0 0px;
 }
 
 .disclaimer li {
@@ -32,8 +32,8 @@ header {
 	margin: 0;
 }
 
-.printRight {
-	margin-right: 800px;
+.disclaimer li:last-child {
+	float:right;
 }
 
 h1 {
@@ -80,6 +80,6 @@ div {
 }
 
 p {
-  padding: 15px 0 15px 0;
+  padding: 15px 0 0 0;
 }
 
