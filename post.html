@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style type="text/css">
+      body {
+        background-color: white;
+        font-family: "Times New Roman", sans-serif;
+      }
+      html, body, h1, h2,
+      h3, p, ol, ul, li, a, form, label {
+      padding: 0;
+      border: 0;
+      margin: 0;
+      font-size: 100%;
+      font: inherit;
+      }
+      header {
+        background: white url("Header.PNG") top left no-repeat;
+        background-size: 100% 100%;
+        padding: 0 0 50px 0;
+      }
+      .main {
+        margin: 0 0 0 150px;
+      }
+
+      h2 {
+        padding: 50px 0 15px 0;
+      }
+      
+      h3 {
+        display: inline;
+        margin: 0 0 0 -5px;
+      }
+      div {
+        padding: 14px 0 14px 0;
+      }
+      form {
+        padding: 0 0 5px 0;        
+      }
+      .button {
+        padding: 50px 0 0 0;
+        height: 150px;   
+        width: 220px;
+
+      }
+      .button[type=submit] {
+        height: 50px;   
+        width: 120px;
+      }
+      .type {
+        font-weight: bold;
+      }
+
+      </style>
+	</head>
+    
+	<body>
+		<header> </header>
+     <div class="main"> 
+		<h2>please limit each posting to a single area and category, once per 48 hours</h2>
+      
+		<h3 class="type"> what type of posting is this: </h3>
+      
+      <h3>  (see <a href="https://www.craigslist.org/about/prohibited" target="_blank">prohibited</a> list before posting.)</h3>
+      
+      <div class="career">
+      <form>       
+        <input type ="radio" id="job-offered">
+        <label for="job-offered">job offered</label>
+      </form>
+      <form>       
+        <input type ="radio" id="gig-offered">
+        <label for="gig-offered">gig offered  (I'm hiring for a short-term, small or odd job) </label>
+      </form>
+      <form>       
+        <input type ="radio" id="resume">
+        <label for="resume">resume / job wanted </label>
+      </form>
+      </div>
+      
+      <div class="house">
+      <form>       
+        <input type ="radio" id="housing-offered">
+        <label for="housing-offered">housing offered </label>
+      </form>
+      <form>       
+        <input type ="radio" id="housing-wanted">
+        <label for="housing-wanted">housing wanted</label>
+      </form>
+      </div>
+      
+      <div class="for-sale">
+      <form>       
+        <input type ="radio" id="for-sale-owner">
+        <label for="for-sale-owner">for sale by owner</label>
+      </form>
+      <form>       
+        <input type ="radio" id="for-sale-dealer">
+        <label for="for-sale-dealer">for sale by dealer</label>
+      </form>
+      <form>       
+        <input type ="radio" id="wanted-owner">
+        <label for="wanted-owner">wanted by owner</label>
+      </form>
+      <form>       
+        <input type ="radio" id="wanted-dealer">
+        <label for="wanted-dealer">wanted by dealer</label>
+      </form>
+      </div>
+      
+      <div class="service">
+      <form>       
+        <input type ="radio" id="service-offered">
+        <label for="service-offered">service offered </label>
+      </form>
+      </div>
+      
+      <div class="personal">
+      <form>       
+        <input type ="radio" id="personal">
+        <label for="personal">personal / romance </label>
+      </form>
+      </div>
+      
+      <div class="comm">
+      <form>       
+        <input type ="radio" id="community">
+        <label for="community">community</label>
+      </form>
+      <form>       
+        <input type ="radio" id="event">
+        <label for="event">event / class</label>
+      </form>
+      <form class="button">
+        <input type ="submit" value = "continue">
+      </form>
+      </div>   
+      </div>
+
+	</body>
+</html>
