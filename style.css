@@ -14,7 +14,7 @@ font: inherit;
 header {
   background: white url("headerItem.PNG") top left no-repeat;
   background-size: 100% 100%;
-  padding: 0 0 0 0;
+  padding: 0 0 5px 0;
 }
 
 .main {
