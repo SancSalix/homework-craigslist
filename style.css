@@ -61,14 +61,18 @@ h2 {
 	padding-left: 10px;
 }
 
-.bike {
-	height: 188px;
-	width: 141px;
+.bike img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
 
-.mapZoom {
-	height: 120px;
-	width: 120px;
+.mapZoom img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
 
 .idInfo li {
