@@ -71,6 +71,10 @@ h2 {
 	width: 192px;
 }
 
+.pictures {
+	width: 75%;
+}
+
 .idInfo li {
 	display: inline-flex;
 	list-style-type: none;
@@ -82,8 +86,15 @@ h2 {
 	margin: 40px 0 20px 0;
 }
 
+.idInfo {
+	font-size: 70%;
+}
+
 .scam {
-	border: 1px solid grey ;
+	margin-bottom: 30px;
+}
+.scam p {
+	border: 1px solid #e8e9ea;
 }
 
 footer {
