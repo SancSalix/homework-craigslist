@@ -78,12 +78,12 @@ h2 {
 	margin: 0;
 }
 
-.warning {
-	margin: 60px 0 20px 0;
+.Warning {
+	margin: 40px 0 20px 0;
 }
 
 .scam {
-	border: 5px solid grey ;
+	border: 1px solid grey ;
 }
 
 footer {
