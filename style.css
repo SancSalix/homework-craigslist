@@ -28,7 +28,7 @@ header {
 .disclaimer li {
 	display: inline-flex;
 	list-style-type: none;
-	padding: 0 15px 0 0;
+	padding: 0 20px 0 0;
 	margin: 0;
 }
 
@@ -90,9 +90,13 @@ p {
 	margin: 0;
 }
 
+.warning {
+	padding: 40px 0 20px 0;
+}
+
 .scam {
 	border-radius: 5px;
-	border-color: rgba(205, 205, 205, .1);
+	border-color: rgba(205, 205, 205, .4);
 }
 
 footer {
