@@ -71,18 +71,6 @@ h2 {
 	width: 192px;
 }
 
-h3 {
-  display: inline;
-  margin: 0 0 0 -5px;
-}
-div {
-  padding: 14px 0 14px 0;
-}
-
-p {
-  padding: 15px 0 0 0;
-}
-
 .idInfo li {
 	display: inline-flex;
 	list-style-type: none;
@@ -104,4 +92,18 @@ footer {
   background-size: 100% 100%;
   padding: 40px 0 0 0;
 }
+
+
+h3 {
+  display: inline;
+  margin: 0 0 0 -5px;
+}
+div {
+  padding: 14px 0 14px 0;
+}
+
+p {
+  padding: 15px 0 0 0;
+}
+
 
