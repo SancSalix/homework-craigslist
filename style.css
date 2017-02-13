@@ -62,13 +62,13 @@ h2 {
 }
 
 .bike {
-	height: 440px;
-	width: 330px;
+	height: 330px;
+	width: 250px;
 }
 
 .mapZoom {
-	height: 256px;
-	width: 256px;
+	height: 192px;
+	width: 192px;
 }
 
 h3 {
